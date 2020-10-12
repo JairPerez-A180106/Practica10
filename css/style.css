@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+article{
+    background-color: rgb(199, 247, 247);
+}
+nav{
+    background-color: rgb(56, 55, 55);
+}
+
+#titulo_ban{
+    display: inline-block;
+}
+#logo_ban{
+    display: inline-block;
+    margin-bottom: 0px;
+    height: 140px;
+    text-align: center;
+    color: black;
+}
+header{
+    background: url(../img/Bootstrap_banner.png);
+}
+footer{
+    float: left;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 2px solid #272727;
+    background-color: #0a0a0a;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+p, div p{
+    font-size: 1.3em;
+}
